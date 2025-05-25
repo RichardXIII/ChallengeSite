@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acessar Conta - Hospital das Clinicas</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>SimpleMed</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="acessar-conta.html" aria-current="page">Acessar Conta</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        
+        
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 id="login-title">Acessar Conta</h2>
+      <form>
+        <p id="login-desc">Digite seu usuário e senha para acessar sua conta.</p>
+        
+        <label for="usuario">Usuário</label>
+        <input type="text" id="usuario"/>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha"/>
+        <p>
+        Não possui uma conta?
+        <a href="registrar.html">Registrar</a>
+        </p>
+
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sistema Hospitalar. Todos os direitos reservados.</p>
+  </footer>
+<script src="scripts/app.js"></script>
+</body>
+</html>
